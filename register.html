@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:/Users/HP/Pictures/215588.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    
+    <title>Get Started</title>
+</head>
+<body>
+   <header id="navbar">
+              <nav>
+              <div class="container">
+                    <ul>
+                      <li><id="logo" style="font-weight: bold !important;">Plate Number <span> Registration</span></li>
+                    </ul>
+                </nav>
+              </div>
+              <body>
+              <h1 class="h p-4 text-center">Welcome User!</h1>
+              <p class="text-center">Fill in the following</p>
+              <div class="container">
+                  <form action="connect.php" method="post">
+                      <!--<label for="fullname" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+          
+                          <label for="phone number" class="form-label">Phone Number</label>
+                          <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+          
+                              <label for="email" class="form-label">Email</label>
+                              <input type="text" class="form-control" id="email" placeholder="Email@example.com">
+          
+                                      <label for="password" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="password" placeholder="Password"> -->
+                     
+                      <h1 class="h p-4">Personal Details</h1>
+                      <div class="row">
+                          <div class="col-md-6">
+                      <label for="surname" class="form-label">Surname</label>
+                      <input type="text" class="form-control" id="s_name" placeholder="Surname">
+          
+                      <label for="middle name" class="form-label">Middle Name</label>
+                      <input type="text" class="form-control" id="m_name" placeholder="Middle Name">
+                      
+                      <label for="last name" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" id="l_name" placeholder="Last Name">
+          
+                      <label for="address 1" class="form-label">Nearest bus-stop</label>
+                      <input type="text" class="form-control" id="address_1" placeholder="Nearest bus-stop">
+          
+                      <label for="address 2" class="form-label">House Address </label>
+                      <input type="text" class="form-control" id="address_2" placeholder="Home Address 2">
+          
+                      <label for="state" class="form-label">State</label>
+                      <input type="text" class="form-control" id="state" placeholder="State">
+          
+                      <label for="city" class="form-label">City</label>
+                      <input type="text" class="form-control" id="city" placeholder="City">
+          
+                      <label for="lga" class="form-label">LGA</label>
+                      <input type="text" class="form-control" id="lga" placeholder="LGA">
+
+
+        <button class="btn btn-primary" value="Proceed" id="next"><a style="color:white; text-decoration:none;" href="credentials.html">Proceed</a></button>
+        
+        </div>      </div>
+                  </form>
+              </div>
+              </div>
+          </body>
+<footer>
+    <p>Copywrite @ Plate Number Registration</p>
+</footer>
+
+<script>
+    let nextBtn = document.querySelector("#next");
+    nextBtn.addEventListener("click", () => {
+        location.href = "credentials.html"
+    ;})
+    </script>
+</body>
+</html>

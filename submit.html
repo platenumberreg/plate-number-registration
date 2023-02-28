@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:/Users/HP/Pictures/215588.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+
+    <title>Submit</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <id="logo" style="font-weight: bold !important;">Plate Number <span> Registration</span>
+                    </li>
+                </ul>
+        </nav>
+        </div>
+
+        <body>
+            <div class="h p-4 text-center">
+                <h1>Registration Completed</h1>
+                <p>Your plate number has been sent to your Email</p>
+                <button class="btn btn-primary" value="return" id="next"><a style="color:white; text-decoration:none;"
+                        href="index.html">Return to homepage</a></button>
+            </div>
+        </body>
+        <footer>
+            <p>Copywrite @ Plate Number Registration</p>
+        </footer>
+        <style>
+            button,
+            h1,
+            p {
+                margin: 30px;
+            }
+
+            footer {
+                margin-top: 20%;
+            }
+        </style>
+        <script>
+            let nextBtn = document.querySelector("#next");
+            nextBtn.addEventListener("click", () => {
+                location.href = "index.html"
+                    ;
+            })
+        </script>
+</body>
+
+</html>
